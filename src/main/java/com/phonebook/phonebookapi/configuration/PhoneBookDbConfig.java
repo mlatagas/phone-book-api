@@ -8,7 +8,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 import javax.sql.DataSource;
 
 @Configuration
-public class PhoneBookConfig {
+public class PhoneBookDbConfig {
 
     @Value("${spring.datasource.url}")
     private String dataSourceUrl;
